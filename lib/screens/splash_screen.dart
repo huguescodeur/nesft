@@ -42,7 +42,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:nest_f/services/auth/auth_wrapper.dart';
+import 'package:nest_f/screens/auth/auth_wrapper.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -78,15 +78,15 @@ class _SplashScreenState extends State<SplashScreen> {
                 repeat: true,
               ),
             ),
-            const Center(
-              child: Text(
-                "Nest F",
-                style: TextStyle(
-                    fontSize: 24,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.blueAccent),
-              ),
-            )
+            // const Center(
+            //   child: Text(
+            //     "Nest F",
+            //     style: TextStyle(
+            //         fontSize: 24,
+            //         fontWeight: FontWeight.bold,
+            //         color: Colors.blueAccent),
+            //   ),
+            // )
           ],
         ),
       ),
